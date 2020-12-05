@@ -1,0 +1,37 @@
+Dear 
+The report was very good and well written.
+My feedback for the individual phase:
+
+1. Random initialization of the population does not necessarily lead to diverse population and you need to check it via variance.  
+   You can also use crowding or islands 
+	Explicit approaches to diversity maintenance based on measures of either
+	genotype or phenotypic space include 
+	- Fitness Sharing (Sect. 5.5.3), 
+	- Crowding (Sect. 5.5.4), and 
+	- Speciation (Sect. 5.5.5), 
+	all of which work by affecting the probability distributions used by selection
+	
+	Implicit approaches to diversity maintenance based on the concept of algorithmic space include 
+	- Island Model EAs (Sect. 5.5.6) and 
+	- Cellular EAs (Sect. 5.5.7).
+
+2. You could test different values for probability of cross over and mutation and population size and k...
+
+3. In the beginning generations it is good to have a large probability of mutation alpha with larger intervals to swap but towards 
+   the end it needs to be smaller both in probability and the interval not to destroy the good solutions you have. 
+
+4. in the beginning generations for large data sets you can have a large k but as you go towards the end you can make it smaller. 
+   Then it can converge faster. 
+
+5. for stopping criteria you could consider the mean fitness as well. 
+
+6. The early convergence can be because of initial population, elimination and crossover. 
+   The last can make the effect of first two worse. 
+
+7. If you check each time whether the link between two cities is infinity or not, the timing of your code will be terrible. 
+   However, you can treat the link with length infinity like other links, 
+   and the tour length which has a link infinity in it will have a length infinity. 
+   This tour will disappear soon from your population.
+
+Kind regards
+Sahar
