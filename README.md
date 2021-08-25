@@ -4,6 +4,7 @@ The traveling salesperson problem consists of minimizing the length of a cycle t
 weighted, directed graph.   
 The length of a cycle is defined as the sum of the weights of all directed edges constituting the cycle (ex. distances between cities).
 In this project, the distances between N cities are stored in a (N x N) matrix in the form of a .csv file.
+The word fitness is equivalent with the length of a cycle that visits all vertices as mentioned above.
 
 * In order to run the traveling salesperson problem solver, use the **RUN_ME.py** file.  
 * You can test the algorithm with any .csv file containing decimal numbers aranged in a (NxN) matrix format or with one of the four *tour<number_of_cities>.csv* files.  
