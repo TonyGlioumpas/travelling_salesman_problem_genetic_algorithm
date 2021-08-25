@@ -255,8 +255,10 @@ class tsp_solver:
             
             best_ind = np.array(population[fitnesses.index(min(fitnesses))].order)
             best_fit = min(fitnesses)
+            print("\n")
             print("Mean fit.:", np.mean(fitnesses), " | Best fit.:", min(fitnesses), " | Iteration:",current_iter)
-
+            print("\n")
+            
             t_now = time.time()
             timestamps.append(t_now - t_start)
 
@@ -282,6 +284,9 @@ class tsp_solver:
 
             if timeLeft < 0:
                 break
+
+            print("Best Route in this generation: ", best_ind )
+            print("\n ---------------------------------------")
 
         # Block of code used to prepare the data for plotting the fitness results:       
         # fig, ax = plt.subplots()
