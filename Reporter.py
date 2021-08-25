@@ -12,7 +12,7 @@ class Reporter:
 		self.startTime = time.time()
 		self.writingTime = 0
 		outFile = open(self.filename, "w")
-		outFile.write(filename + "Results \n")
+		outFile.write(filename + " Results \n")
 		outFile.write("# Iteration, Elapsed time, Mean value, Best value, Cycle\n")
 		outFile.close()
 
