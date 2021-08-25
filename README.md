@@ -9,3 +9,6 @@ In this project, the distances between N cities are stored in a (N x N) matrix i
 * You can test the algorithm with any .csv file containing decimal numbers aranged in a (NxN) matrix format or with one of the four *tour<number_of_cities>.csv* files.  
 Simply change the name of the tourXXX.csv in RUN_ME.py file.  
 * **Reporter.py** creates a .csv file with the results of a succesful execution of the algorithm.
+
+The larger the number of cities, the slower the calculations.
+You can change the time the algorithm is allowed to run from the Reporter.py file (current configuration: 300 sec).
