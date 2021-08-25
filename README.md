@@ -7,3 +7,6 @@ The length of a cycle is defined as the sum of the weights of all directed edges
 In this project, the distances between N cities are stored in a (N x N) matrix.
 To test the algorithm, 4 .csv files
 
+In order to run the traveling salesperson problem solver, run the tsp_solver.py file.
+Choose one of the four tour<number_of_cities>.csv files by editing 
+Reporter.py creates a .csv file with the results of a test
